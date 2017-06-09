@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Joseph Dykstra&apos;s Blog</title>
     <link>http://josephdykstra.com</link>
-    <updated>2017-01-07T20:30:10Z</updated>
+    <updated>2017-06-09T01:40:53Z</updated>
     <author>
         <name>Joseph Dykstra</name>
         <email>josephdykstra@gmail.com</email>
@@ -13,6 +13,64 @@
     <logo>http://josephdykstra.com/logo.png</logo>
     <rights>Copyright © Joseph Dykstra 2016.</rights>
     <generator>Feed for Node.js</generator>
+    <entry>
+        <title type="html"><![CDATA[Complaints about Memes]]></title>
+        <id>http://josephdykstra.com/complaints-about-memes</id>
+        <link href="http://josephdykstra.com/complaints-about-memes">
+        </link>
+        <updated>2017-06-07T00:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Today I saw a lot of memes on Facebook, and I was disappointed in humanity. First, for the memes, and second, for the content. So I grabbed a bunch of memes from my timeline. (Not all the memes, some of them were just dumb jokes. Also, I'm using the term "meme" quite loosely.)</p>
+<p>First, the pencil joke:</p>
+<p><img src="./complaints-about-memes/1_pencil_cassette.jpg" alt="Image"></p>
+<p>I wouldn't even include this one if it wasn't for the text at the top: "Like three people will get this but it's worth it."</p>
+<p>Here's a comic strip that's well done, but not particularly sharable... Until you add the text telling almost everyone that they are the genius that understands this joke. At least 50% of people must get the joke, is my estimate, but the text at the top is intended to make you feel good. And then you Like or Share it, and more people see it in their timeline.</p>
+<hr>
+<p>I guess you can tell that I'm growing up in the Mid-West with farming relatives:</p>
+<p><img src="./complaints-about-memes/2_baling_hard_work.jpg" alt="Image"></p>
+<p>This meme is similar the the first, but targets what they've done instead of what they know. While fewer people relate to this, those who do are probably going to Share and Like it more often.</p>
+<p>If you've spent a summer baling hay, you want your friends to know. What better way to tell them, then to also tell them that they haven't worked hard?</p>
+<hr>
+<p>The inspirational, misleading meme:</p>
+<p><img src="./complaints-about-memes/3_do_scary_things.jpg" alt="Image"></p>
+<p>"Do things that scare you, they're worth it."</p>
+<p>Jumping off a cliff would scare me.</p>
+<hr>
+<p>Thoughts and prayers:</p>
+<p><img src="./complaints-about-memes/4_thoughts_prayers.jpg" alt="Image"></p>
+<p>I found this to be pretty funny. In a case where the guy on the dock is in a position to help, it's pretty terrible that he's ignoring the drowning dude.</p>
+<p>In cases where I've noticed people say this, I don't think they were in the position to help...</p>
+<hr>
+<p>Here's a girl who wrote a song about her situation, and sang it for America's Got Talent, even though she's deaf:</p>
+<p><img src="./complaints-about-memes/5_mandy_harvey.png" alt="Image"></p>
+<p>I watched it, and was impressed. Then again, I've been impressed with <a href="https://www.youtube.com/watch?v=rk_qLtk0m2c">many</a> <a href="https://youtu.be/NS0L9RdPNvY?t=2m49s">Got</a> <a href="https://youtu.be/CVRe8lns3xc?t=39s">Talent</a> videos, each in different ways.</p>
+<p>The caption is dumb. "Proof that you should never give up on your dream"? <em>Maybe</em> it's evidence that you should never give up on your dream. It's proof that some people <em>accomplish</em> their dreams. Maybe your dream is out of reach. Maybe you should get a more realistic dream.</p>
+<hr>
+<p>Now for some of the dumbest logic yet:</p>
+<p><img src="./complaints-about-memes/6_wine_college.jpg" alt="Image"></p>
+<p>This makes just enough sense to click Like if aren't really thinking about it, and never set eyes upon it again.</p>
+<p>The meme is trying to say this:</p>
+<blockquote>
+<p>"Can I spend $20?" "No."</p>
+<p>"Can I spend $40,000?" "Yes."</p>
+<p>Subtext: Isn't that crazy?</p>
+</blockquote>
+<p>Obviously it can be bad, even disastrous to go into debt. It's legal to go into debt. Colleges are a common method by which people go into debt. Should colleges be illegal? No! People can decide for themselves whether college is worth the investment.</p>
+<p>The first part of the meme has nothing to do with the second part, which I just covered. It just mentions that alcohol is illegal in the U.S. I don't think it should be, but that's not really the point of the meme.</p>
+<hr>
+<p>I thought this was another one of those "I had no smartphone when I was a kid" memes:</p>
+<p><img src="./complaints-about-memes/7_grew_up_no_phone.jpg" alt="Image"></p>
+<p>Ha ha, nope! I think this meme is hilarious. But like most of the other memes, it suffers from terrible resolution and jpg compression.</p>
+<p>It only makes sense with the context of the "so glad I grew up playing outdoors rather than playing with a screen" memes.</p>
+<hr>
+<p>So what's the point? I felt like complaining about what I see on Facebook. While I would like to blame the "algorithm" that tries to guess what I want to see, it's actually a lot of my friends interacting (Sharing/Liking) these posts that gets me to see them. And I've probably Liked and Shared a hundred dumb memes, so I'm not one to talk.</p>
+<p>But if you see a meme on Facebook or Twitter, think about this: Is it a logical argument? Is it just appealing to pride?</p>
+]]></summary>
+        <author>
+            <name>Joseph Dykstra</name>
+            <email>josephdykstra@gmail.com</email>
+            <uri>http://josephdykstra.com</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2016 Christmas Letter]]></title>
         <id>http://josephdykstra.com/2016-dykstra-christmas-letter</id>
@@ -163,53 +221,6 @@ He who rules over men must be just, Ruling in the fear of God.</p>
 <p>If you love Me, keep My commandments.</p>
 </blockquote>
 <p>Trump does not lead a Godly life, nor does he claim to. Trump is unfit for office, according to God's word.</p>
-]]></summary>
-        <author>
-            <name>Joseph Dykstra</name>
-            <email>josephdykstra@gmail.com</email>
-            <uri>http://josephdykstra.com</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Android Podcast Apps Review]]></title>
-        <id>http://josephdykstra.com/android-podcast-apps-review</id>
-        <link href="http://josephdykstra.com/android-podcast-apps-review">
-        </link>
-        <updated>2016-03-27T00:00:00Z</updated>
-        <summary type="html"><![CDATA[<p>I am a fan of podcasts, and I recently purchased an android phone. I needed an app to handle podcasts for me. I have a few requirements for a podcast app:</p>
-<ol>
-<li>I want the app to automatically download the episodes from oldest to newest</li>
-<li>I want the app to delete the listened episodes</li>
-<li>I want the UI to be simple, and intuitive</li>
-</ol>
-<p>I tried 4 well-rated apps: AntennaPod, Podcast Republic, Podkicker, and Podcast Addict</p>
-<blockquote>
-<p>Disclaimer: Facts such as ratings and features of apps might change after I write this review.</p>
-</blockquote>
-<h2 id="antennapod">AntennaPod</h2>
-<p><a href="https://play.google.com/store/apps/details?id=de.danoeh.antennapod">AntennaPod</a> is rated 4.5 stars on the google play store. It is ad-free and open source.</p>
-<p>The UI is great. It is simple, intuitive, and I like how it is set up.</p>
-<p>It does have an auto-download, and auto-delete. However, it doesn't support downloading from oldest to newest, so it's out.</p>
-<h2 id="podcast-republic">Podcast Republic</h2>
-<p><a href="https://play.google.com/store/apps/details?id=com.itunestoppodcastplayer.app&amp;hl=en">Podcast Republic</a> is rated 4.4 stars on the google play store. It is ad-supported.</p>
-<p>The UI is beautiful. The app feel like it was created by a designer; it acts in non-android-standard ways. This makes it less intuitive, but allows the app to be cleaner. This app is a bit confusing with the many screens it has.</p>
-<p>Lots of settings for this app, but they're well organized, so you can easily find the setting you're looking for.</p>
-<p>This app has auto-download and auto-delete. It's unable to auto-download oldest to newest, so I am not keeping it.</p>
-<h2 id="podkicker">Podkicker</h2>
-<p><a href="https://play.google.com/store/apps/details?id=ait.podka">Podkicker</a> is rated 4.2 stars on the google play store. It is ad-supported.</p>
-<p>This app is hands-down the simplest UI for a podcast app of the four. Very intuitive, and easy to use, but the simplicity has its downsides, including making it harder to do some bulk tasks, but this was rather minor.</p>
-<p>The app seems to lack an auto-delete, but it has a new-episodes-only auto-download. Goodbye app.</p>
-<h2 id="podcast-addict">Podcast Addict</h2>
-<p><a href="https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict">Podcast Addict</a> is rated 4.6 stars on the google play store. It is ad-supported.</p>
-<p>This podcast player has a bunch of features that I don't (and probably will never) use, such as playlists, and live streams. There are <em>a lot</em> of settings, but they start with pretty good defaults, so it's not an issue.</p>
-<p>This was the only app I could find that would download from oldest to newest. I've set a limit of 10 auto-downloaded episodes per show, so I don't fill up my phone right away.</p>
-<p>The UI is pretty good, and not too hard to figure out as you go. It also has silence skipping, which is sort of neat.</p>
-<p>I'm really liking this app, and I got the <strong>Donate</strong> version. If you like the app, it's worth supporting the developer (and removing ads) by throwing a few bucks his way.</p>
-<h2 id="you-re-so-picky">You're so picky!</h2>
-<p>Maybe you're saying, "one silly feature destroyed most of your options!"</p>
-<p>I don't want to have to think about my podcast app. If I have to think about it, or manually download episodes before driving, then it's not doing it's job as well as it should.</p>
-<h2 id="bye">Bye</h2>
-<p>I hope this helps you decide on a podcast app. Thanks for reading!</p>
 ]]></summary>
         <author>
             <name>Joseph Dykstra</name>
