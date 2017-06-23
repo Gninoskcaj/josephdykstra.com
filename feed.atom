@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Joseph Dykstra&apos;s Blog</title>
     <link>http://josephdykstra.com</link>
-    <updated>2017-06-12T02:29:40Z</updated>
+    <updated>2017-06-23T03:52:30Z</updated>
     <author>
         <name>Joseph Dykstra</name>
         <email>josephdykstra@gmail.com</email>
@@ -13,6 +13,42 @@
     <logo>http://josephdykstra.com/logo.png</logo>
     <rights>Copyright © Joseph Dykstra 2016.</rights>
     <generator>Feed for Node.js</generator>
+    <entry>
+        <title type="html"><![CDATA[How to Highlight CFML Tags in Sublime Text 3]]></title>
+        <id>http://josephdykstra.com/highlight-cfml-in-sublime</id>
+        <link href="http://josephdykstra.com/highlight-cfml-in-sublime">
+        </link>
+        <updated>2017-06-22T00:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>I use Sublime Text 3, and in my day job, I write and edit code in ColdFusion Markup Language (CFML), so I wanted a syntax highlighter. You can use Sublime's built-in HTML highlighter, but then you can't easily distinguish CFML tags from plain HTML tags:</p>
+<p><img src="./highlight-cfml-in-sublime/1_initial.png" alt="Initial"></p>
+<p>Let me show you a more excellent way.</p>
+<p>If you don't already have <a href="https://packagecontrol.io">Package Control</a>, then go to <em>Tools</em> &gt; <em>Install Package Control</em>.</p>
+<p>If you don't already have the CFML package, then press <kbd>Ctrl/Cmd</kbd><kbd>Shift</kbd><kbd>P</kbd>. Then type <strong>Install Package</strong>, and press <kbd>Enter</kbd>. Then type <strong>CFML</strong>, and press <kbd>Enter</kbd>.</p>
+<p>If you want CFML tags to be visually distinct from HTML tags then go to <em>Preferences</em> &gt; <em>Package Settings</em> &gt; <em>CFML</em> &gt; <em>Settings</em>, and paste the following code:</p>
+<pre><code class="language-json">{
+    // color scheme styles to inject for Lucee/CFML tags
+    // valid keys are "foreground" and "fontStyle"
+    // "foreground": "#RRGGBB", "#RGB" or ""
+    // "fontStyle": "bold", "italic", "bold italic", or ""
+    "cfml_tag_style": { "foreground": "#4C9BB0", "fontStyle": "" },
+    "cfml_tag_attribute_style": { "foreground": "", "fontStyle": "" }
+}
+</code></pre>
+<p>Save the file.</p>
+<p>The example code above will modify the tag style but not the attribute style. Customize it it to your liking.</p>
+<p>To actually enable it, you must press <kbd>Ctrl/Cmd</kbd><kbd>Shift</kbd><kbd>P</kbd>. Then type <strong>CFML Toggle</strong>, and press <kbd>Enter</kbd>.</p>
+<p><img src="./highlight-cfml-in-sublime/3_cfml_package_toggle.png" alt="CFML Package Color Toggle"></p>
+<p>If you hate the CF tag color that you just chose, then go ahead and change the foreground color. You will have to run the <strong>CFML Toggle</strong> two times to see the new color.</p>
+<p>Now your CFML files look like this:</p>
+<p><img src="./highlight-cfml-in-sublime/4_success.png" alt="Success"></p>
+<p>I hope this helps!</p>
+]]></summary>
+        <author>
+            <name>Joseph Dykstra</name>
+            <email>josephdykstra@gmail.com</email>
+            <uri>http://josephdykstra.com</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Complaints about Memes]]></title>
         <id>http://josephdykstra.com/complaints-about-memes</id>
@@ -190,37 +226,6 @@ The Dykstra Family</p>
 </ul>
 <p>As you can see, I just ran the numbers; feel free to double-check them. In each scenarios, Clam Chowder had the same number of votes: 4500. It is clear that a vote for Creamy Cool Whip was not a vote for Clam Chowder. You know what <em>is</em> a vote for Clam Chowder? Voting for Clam Chowder.</p>
 <p>The Ketchuppers are attempting to get your vote. Are you comprimising your morals if you give it to them?</p>
-]]></summary>
-        <author>
-            <name>Joseph Dykstra</name>
-            <email>josephdykstra@gmail.com</email>
-            <uri>http://josephdykstra.com</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Why Voting for Trump is a Morally Bad Choice]]></title>
-        <id>http://josephdykstra.com/short-wayne-grudem-refutation</id>
-        <link href="http://josephdykstra.com/short-wayne-grudem-refutation">
-        </link>
-        <updated>2016-08-02T00:00:00Z</updated>
-        <summary type="html"><![CDATA[<p>I was going to read <a href="http://www.thegreatfiction.com/2016/07/30/the-moral-case-for-donald-trump-refuted/">a refutation</a> to Wayne Grudem's article about voting for Trump, but then I saw the dreaded "wall of text". The small scrollbar whispered, "Is this really how you want to spend your time?"  And so instead of reading a few paragraphs, I decided to see if I can construct a shorter refutation.</p>
-<p>In Wayne Grudem's article, <em><a href="http://townhall.com/columnists/waynegrudem/2016/07/28/why-voting-for-donald-trump-is-a-morally-good-choice-n2199564">Why Voting for Donald Trump Is a Morally Good Choice</a></em>, under the <em>A good candidate with flaws</em> section, he states:</p>
-<blockquote>
-<p>I do not think that voting for Donald Trump is a morally evil choice because there is nothing morally wrong with voting for a <em>flawed</em> candidate if you think he will do more good for the nation than his opponent. In fact, it is the morally right thing to do.</p>
-</blockquote>
-<p>In the Bible, there are minimal requirements for rulers:</p>
-<blockquote>
-<p><a href="https://www.biblegateway.com/passage/?search=2+Samuel+23%3A3&amp;version=NKJV">2 Samuel 23:3</a>  <br>
-He who rules over men must be just, Ruling in the fear of God.</p>
-</blockquote>
-<p>(See longer post by Phillip Kayser about <a href="https://www.facebook.com/philkayser/posts/10157270314665311">minimal requirements for rulers</a>.)</p>
-<p>Does Trump fear God? I believe the answer is a definite "no".</p>
-<blockquote>
-<p><a href>John 14:12,15</a>  <br>
-"Most assuredly, I say to you, he who believes in Me, the works that I do he will do also; and greater works than these he will do, because I go to My Father.</p>
-<p>If you love Me, keep My commandments.</p>
-</blockquote>
-<p>Trump does not lead a Godly life, nor does he claim to. Trump is unfit for office, according to God's word.</p>
 ]]></summary>
         <author>
             <name>Joseph Dykstra</name>
