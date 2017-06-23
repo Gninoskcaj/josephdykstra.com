@@ -4,7 +4,7 @@
         <title>Joseph Dykstra&apos;s Blog</title>
         <description>Follow Joseph&apos;s opinions on your feed reader!</description>
         <link>http://josephdykstra.com</link>
-        <lastBuildDate>Fri, 23 Jun 2017 04:11:49 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 23 Jun 2017 04:17:37 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <image>
             <title>Joseph Dykstra&apos;s Blog</title>
@@ -39,7 +39,7 @@
 <p><img src="./highlight-cfml-in-sublime/3_cfml_package_toggle.png" alt="CFML Package Color Toggle"></p>
 <p>If you hate the CF tag color that you just chose, then go ahead and change the foreground color. You will have to run the <strong>CFML Toggle</strong> two times to see the new color.</p>
 <p>Now your CFML files look like this:</p>
-<p><img src="./highlight-cfml-in-sublime/4_success.png" alt="Success"></p>
+<p><img src="./highlight-cfml-in-sublime/4_highlighted.png" alt="Success"></p>
 <p>I hope this helps!</p>
 ]]></description>
             <content:encoded/>

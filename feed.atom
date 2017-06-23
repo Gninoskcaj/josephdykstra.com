@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Joseph Dykstra&apos;s Blog</title>
     <link>http://josephdykstra.com</link>
-    <updated>2017-06-23T04:11:49Z</updated>
+    <updated>2017-06-23T04:17:37Z</updated>
     <author>
         <name>Joseph Dykstra</name>
         <email>josephdykstra@gmail.com</email>
@@ -40,7 +40,7 @@
 <p><img src="./highlight-cfml-in-sublime/3_cfml_package_toggle.png" alt="CFML Package Color Toggle"></p>
 <p>If you hate the CF tag color that you just chose, then go ahead and change the foreground color. You will have to run the <strong>CFML Toggle</strong> two times to see the new color.</p>
 <p>Now your CFML files look like this:</p>
-<p><img src="./highlight-cfml-in-sublime/4_success.png" alt="Success"></p>
+<p><img src="./highlight-cfml-in-sublime/4_highlighted.png" alt="Success"></p>
 <p>I hope this helps!</p>
 ]]></summary>
         <author>
