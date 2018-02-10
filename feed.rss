@@ -4,7 +4,7 @@
         <title>Joseph Dykstra&apos;s Blog</title>
         <description>Follow Joseph&apos;s opinions on your feed reader!</description>
         <link>http://josephdykstra.com</link>
-        <lastBuildDate>Fri, 09 Feb 2018 23:42:29 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 10 Feb 2018 20:05:11 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <image>
             <title>Joseph Dykstra&apos;s Blog</title>
@@ -13,6 +13,34 @@
         </image>
         <copyright>Copyright © Joseph Dykstra 2016.</copyright>
         <generator>Feed for Node.js</generator>
+        <item>
+            <title><![CDATA[2017 Christmas Letter]]></title>
+            <link>http://josephdykstra.com/2017-dykstra-christmas-letter</link>
+            <guid>http://josephdykstra.com/2017-dykstra-christmas-letter</guid>
+            <pubDate>Sat, 10 Feb 2018 00:00:00 GMT</pubDate>
+            <description><![CDATA[<p>A big "Howdy" from the Dykstras!</p>
+<p>We have been busy, but busy is good.  Gilbert is still keeping bees, and is transitioning from primarily producing honey to producing more queen bees.  Donna is keeping the house, garden, and kids in check.  Joseph is still working as a programmer for a School Information System vendor.  Levi is still working for a landscaper family-friend, and taking horticulture classes.  Daniel is still working for David, who is a General Contractor.  Nathanael is being homeschooled by Donna, and is currently in Seventh grade.</p>
+<p>In mid-March Gilbert and the boys moved Rebecca's baby grand piano from our house to Micah and Rebecca's house.</p>
+<p>Our family has a weekly gathering on Saturday nights where all the married children and their families come for pizza or sloppy joes. In mid-March, Michael came in with a shirt that said "Dad-To-Be". What a cute way to announce their pregnancy!</p>
+<p>In late April, Gilbert, Donna, Daniel, and Nathanael attended the First LEGO League World Championship in St. Louis, Missouri.  Nathanael is on a team called the Data Dragons, created by a family in our church.  The team</p>
+<p>In early May, Joseph's company flew his team to Texas for an in-person meetup. Joseph works from his "remote bunker" for the Texas-based company.</p>
+<p>In June, Donna's parents moved from their house of 40ish years to a condo across town, and our family helped them move.  It's a huge change for them, and it's still a little hard to believe that they are living somewhere else.</p>
+<p>August was a busy month.  Our church hosted a conference called the Providential History Festival.  Levi played the role of a guard for a drama at PHF.</p>
+<p>Nathanael joined a local homeschool junior-varsity flag-football team called Lightning.  The team won three of five official games.</p>
+<p>In late-August, our family drove to North-East Nebraska to view the solar eclipse.  Unfortunately clouds covered the sun during totality where we were, but we still got to see a lot of the eclipse clearly.</p>
+<p>In September, we had a family "Staycation".  All of the married children and their families came over to our house for a week.  One day we visited the zoo.  One night was "guy's night" where the guys played laser tag.  The girls went to an escape room for "girl's night".  During the staycation we played tons of board games, and even had some tournaments for ping pong, rook, and giant jenga. (Giant jenga is jenga, but with 2x4s).</p>
+<p>On October 22, Michael and Elizabeth's first child was born.  She was named Abigail Delores Dykstra.  She is Gilbert and Donna's eighth grandchild.</p>
+<p>In December, Micah and Rebecca had a baby shower for their (unborn) boy.</p>
+<p>2017 has been another great year for the Dykstras, and we sincerely hope that you've had a great year too!  Remember that this season is about Christ's incarnation, and our joy in salvation through Him.  We thank you all for being our friends throughout this year!</p>
+<p>— The Dykstra Family</p>
+]]></description>
+            <content:encoded/>
+            <author>
+                <name>Joseph Dykstra</name>
+                <email>josephdykstra@gmail.com</email>
+                <link>http://josephdykstra.com</link>
+            </author>
+        </item>
         <item>
             <title><![CDATA[How to Highlight CFML Tags in Sublime Text 3]]></title>
             <link>http://josephdykstra.com/highlight-cfml-in-sublime</link>
@@ -178,53 +206,6 @@ The Dykstra Family</p>
 <p>But of that day and hour no one knows, not even the angels of heaven, but My Father only. But as the days of Noah were, so also will the coming of the Son of Man be. For as in the days before the flood, they were eating and drinking, marrying and giving in marriage, until the day that Noah entered the ark, and did not know until the flood came and took them all away, so also will the coming of the Son of Man be. Then two men will be in the field: one will be taken and the other left. Two women will be grinding at the mill: one will be taken and the other left. Watch therefore, for you do not know what hour your Lord is coming. But know this, that if the master of the house had known what hour the thief would come, he would have watched and not allowed his house to be broken into. Therefore you also be ready, for the Son of Man is coming at an hour you do not expect."</p>
 </blockquote>
 <p>Here, Jesus explains that we <em>won't</em> have signs telling us when the end times are coming. If the Great Tribulation = End Times, then this makes no sense, becuase Jesus Himself just told them signs for the Great Tribulation!</p>
-]]></description>
-            <content:encoded/>
-            <author>
-                <name>Joseph Dykstra</name>
-                <email>josephdykstra@gmail.com</email>
-                <link>http://josephdykstra.com</link>
-            </author>
-        </item>
-        <item>
-            <title><![CDATA[A Vote For a Candidate That Can't Win]]></title>
-            <link>http://josephdykstra.com/a-vote-for-a-candidate-that-cant-win</link>
-            <guid>http://josephdykstra.com/a-vote-for-a-candidate-that-cant-win</guid>
-            <pubDate>Tue, 02 Aug 2016 00:00:00 GMT</pubDate>
-            <description><![CDATA[<p>Have you heard this?</p>
-<blockquote>
-<p>A vote for a candidate that has no chance of winning is a vote for the majority.</p>
-<p>— Facebook Comment</p>
-</blockquote>
-<p>I am not convinced that a vote for a candidate that can't win is a vote for the leader (a.k.a. "majority"). I've decided to run the numbers.</p>
-<hr>
-<p>Let's imagine that there are 10,000 voters, not including you:</p>
-<ul>
-<li>4500 are voting for Candidate Clam Chowder</li>
-<li>4000 are voting for Kandidate Ketchup</li>
-<li>1500 are voting for Candidate Creamy Cool Whip</li>
-</ul>
-<p>You are a supporter of Candidate Creamy Cool Whip, and you strongly <em>distaste</em> Candidate Clam Chowder. You're not a fan of Kandidate Ketchup, but <em>"Ketchup is a bit better than Clam Chowder"</em>, you tell yourself.</p>
-<p>Election day is coming up, and the Ketchuppers say that if you don't vote for Kandidate Ketchup, you're voting for Candidate Clam Chowder.</p>
-<p>Here are the two scenarios:</p>
-<ol>
-<li>You give in to the demands, and cast your vote for Ketchup</li>
-</ol>
-<ul>
-<li>Clam Chowder: 4500 votes</li>
-<li>Ketchup: 4001 votes</li>
-<li>Creamy Cool Whip: 1500 votes</li>
-</ul>
-<ol start="2">
-<li>You say "deal with it!" to the Ketchuppers, and you stand with your fellow Cool Whippers</li>
-</ol>
-<ul>
-<li>Clam Chowder: 4500 votes</li>
-<li>Ketchup: 4000 votes</li>
-<li>Creamy Cool Whip: 1501 votes</li>
-</ul>
-<p>As you can see, I just ran the numbers. Feel free to double-check them. In each scenario, Clam Chowder had the same number of votes: 4500. It is clear that a vote for Creamy Cool Whip was not a vote for Clam Chowder. You know what <em>is</em> a vote for Clam Chowder? Voting for Clam Chowder.</p>
-<p>The Ketchuppers are attempting to get your vote. Are you comprimising your morals if you give it to them?</p>
 ]]></description>
             <content:encoded/>
             <author>
