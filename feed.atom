@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Joseph Dykstra&apos;s Blog</title>
     <link>http://josephdykstra.com</link>
-    <updated>2018-02-23T03:56:53Z</updated>
+    <updated>2018-04-03T22:03:43Z</updated>
     <author>
         <name>Joseph Dykstra</name>
         <email>josephdykstra@gmail.com</email>
@@ -109,6 +109,7 @@
 <p>If you hate the CF tag color that you just chose, then go ahead and change the foreground color. You will have to run the <strong>CFML Toggle</strong> two times to see the new color.</p>
 <p>Now your CFML files look like this:</p>
 <p><img src="./highlight-cfml-in-sublime/4_highlighted.png" alt="Success"></p>
+<p>I had the custom color go away, and running the <strong>CFML Toggle</strong> a couple times didn't make it show. I changed the theme, then changed it back, then I ran the toggle a couple more times, and it started working again.</p>
 <p>I hope this helps!</p>
 ]]></summary>
         <author>
