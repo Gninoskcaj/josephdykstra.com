@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Joseph Dykstra&apos;s Blog</title>
     <link>http://josephdykstra.com</link>
-    <updated>2018-04-03T22:03:43Z</updated>
+    <updated>2018-05-11T03:42:47Z</updated>
     <author>
         <name>Joseph Dykstra</name>
         <email>josephdykstra@gmail.com</email>
@@ -13,6 +13,83 @@
     <logo>http://josephdykstra.com/logo.png</logo>
     <rights>Copyright © Joseph Dykstra 2016.</rights>
     <generator>Feed for Node.js</generator>
+    <entry>
+        <title type="html"><![CDATA[How to set up Tiny Tiny RSS on a Digital Ocean VPS]]></title>
+        <id>http://josephdykstra.com/how-to-setup-tt-rss-on-do-vps</id>
+        <link href="http://josephdykstra.com/how-to-setup-tt-rss-on-do-vps">
+        </link>
+        <updated>2018-05-07T00:00:00Z</updated>
+        <summary type="html"><![CDATA[<p>Setting up <a href="https://tt-rss.org/">Tiny Tiny RSS</a> can be a bit tricky, even if you have some technical knowledge. I ran into a few issues when I set it up, and found solutions which I thought might come in handy for others who try to set up Tiny Tiny RSS.</p>
+<h2 id="what-you-need">What you need:</h2>
+<ul>
+<li><a href="https://www.digitalocean.com/">Digital Ocean</a> account</li>
+<li>SSH Client - I use <a href="https://putty.org/">PuTTY</a> (Windows)</li>
+</ul>
+<h2 id="create-the-vps">Create the VPS</h2>
+<p>Log into your <a href="https://www.digitalocean.com/">Digital Ocean</a> account, and create a new droplet. Choose the One-Click App called <strong>LAMP on 16.04</strong>.</p>
+<p><img src="./how-to-setup-ttrss/01-lamp.PNG" alt="Lamp on 16.04"></p>
+<p>I chose the cheapest, smallest server.</p>
+<p><img src="./how-to-setup-ttrss/02-size.PNG" alt="cheapest server"></p>
+<p>Hit <strong>Create</strong>!</p>
+<h2 id="login-to-the-vps">Login to the VPS</h2>
+<p>Open your SSH client, and log into your new VPS. You will need to copy the IP address from the Digital Ocean dashboard. If you did not add any SSH keys, then you will have to wait for the root password in an email. In my experience, this email can come 30 minutes after creating the server.</p>
+<p>Login with the VPS's IP and the username <strong>root</strong>.</p>
+<p><img src="./how-to-setup-ttrss/05-putty.PNG" alt="Login to VPS"></p>
+<p>On your first login, you might have to accept the key fingerprint.</p>
+<p><img src="./how-to-setup-ttrss/06-putty-confirm-fingerprint.PNG" alt="Confirm fingerprint"></p>
+<h2 id="install-mysql">Install MySQL</h2>
+<p>Get the MySQL password by running <code>cat .digitalocean_password</code>.</p>
+<p>Copy the password. In PuTTY, selecting the text copies it to the clipboard.</p>
+<p><img src="./how-to-setup-ttrss/07-cat-do-pw.PNG" alt="cat digitalocean_password"></p>
+<p>Install MySQL by running <code>mysql_secure_installation --use-default</code>. When the password prompt pops up, paste the password. (In PuTTY, just right click to paste. You won't see the screen change.) Then press <kbd>Enter</kbd>.</p>
+<h2 id="set-up-mysql">Set Up MySQL</h2>
+<pre><code class="language-bash">mysql --user=root --password=[Your copied password]
+mysql&gt; CREATE DATABASE ttrss;
+mysql&gt; exit
+</code></pre>
+<p><img src="./how-to-setup-ttrss/08-mysql-create-db.PNG" alt="Create Database"></p>
+<h2 id="install-php-plugins">Install PHP Plugins</h2>
+<p>Paste the following commands into the console:</p>
+<pre><code class="language-bash">apt-get update
+apt-get install php-mbstring -y
+apt-get install php-xml -y
+apt-get install php-curl -y
+service apache2 restart
+</code></pre>
+<h2 id="install-tiny-tiny-rss">Install Tiny Tiny RSS</h2>
+<pre><code class="language-bash">cd /var/www/html
+git clone https://tt-rss.org/git/tt-rss.git tt-rss
+chmod -R 777 tt-rss
+</code></pre>
+<p>Visit <strong>[IP]/tt-rss/install/</strong> in your browser, and fill in the fields:</p>
+<ol>
+<li>Database type is <strong>MySQL</strong>.</li>
+<li>Username is <strong>root</strong>.</li>
+<li>Password is the one you copied earlier.</li>
+<li>Database name is whatever you put after the <code>CREATE DATABASE</code> command, in this case <strong>ttrss</strong>.</li>
+<li>Leave Host name empty. (This is the host name for the database server, which defaults to <strong>localhost</strong>.)</li>
+<li>Port is <strong>3306</strong>.</li>
+<li>Tiny Tiny RSS URL should be left as-is.</li>
+</ol>
+<p><img src="./how-to-setup-ttrss/09-ttrss-install.PNG" alt="Install TTRSS"></p>
+<p>Press <strong>Test configuration</strong>. I got a minor warning about internationalized domain names, which I ignored.</p>
+<p>Press <strong>Initialize database</strong>.</p>
+<p><img src="./how-to-setup-ttrss/14-ttrss-initialize-db2.PNG" alt="Init db"></p>
+<p>Press <strong>Save configuration</strong>.</p>
+<p>Visit <strong>[IP]/tt-rss/</strong> in your browser.</p>
+<ol>
+<li>Login is <strong>admin</strong>.</li>
+<li>Password is <strong>password</strong>.</li>
+</ol>
+<p><img src="./how-to-setup-ttrss/15-login.PNG" alt="Login"></p>
+<p>Change the password when you log in!</p>
+]]></summary>
+        <author>
+            <name>Joseph Dykstra</name>
+            <email>josephdykstra@gmail.com</email>
+            <uri>http://josephdykstra.com</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[DCC Podcast Feeds]]></title>
         <id>http://josephdykstra.com/dcc-podcast-feeds</id>
@@ -169,36 +246,6 @@
 <hr>
 <p>So what's the point? I felt like complaining about what I see on Facebook. While I would like to blame the "algorithm" that tries to guess what I want to see, it's actually a lot of my friends interacting (Sharing/Liking) these posts that gets me to see them. And I've probably Liked and Shared a hundred dumb memes, so I'm not one to talk.</p>
 <p>But if you see a meme on Facebook or Twitter, think about this: Is it a logical argument? Is it just appealing to pride?</p>
-]]></summary>
-        <author>
-            <name>Joseph Dykstra</name>
-            <email>josephdykstra@gmail.com</email>
-            <uri>http://josephdykstra.com</uri>
-        </author>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[2016 Christmas Letter]]></title>
-        <id>http://josephdykstra.com/2016-dykstra-christmas-letter</id>
-        <link href="http://josephdykstra.com/2016-dykstra-christmas-letter">
-        </link>
-        <updated>2016-12-23T00:00:00Z</updated>
-        <summary type="html"><![CDATA[<p>Hello from the Dykstra Family!</p>
-<p>What a crazy year 2016 has been for us!  Gilbert has been beekeeping, and he added onto his shed (with the boys' help).  Gilbert and Donna planted, watered, tended, and harvested our garden.  Donna and Rebecca went to a camp called Joni and Friends where they assisted families of disabled children.  Rebecca got married!  (Some said it would never happen, but I guess she proved them wrong!)  Joseph is working as a computer programmer.  Levi is working for a landscaper, and is in college for horticulture.  Daniel is working for David who is a general contractor, and is in college to become an electrician.  Nathanael is still being homeschooled.</p>
-<p>In January, Jordon and Jessica had their 4th child, Isabella Cave.</p>
-<p>In February, Micah Swab's courtship with Rebecca was announced.  (For the uninitiated, courting is like dating, but with Gilbert and Donna being more involved, which they quite liked!)  Micah asked for Gilbert and Donna's permission to court Rebecca several months prior.  A few of the kids had suspicions that Micah was starting a courtship.  We were all elated to have his suitorship confirmed.</p>
-<p>March marked Gilbert and Donna's 31st Anniversary.  They left the kids at the house (scary!) and went to a Bed &amp; Breakfast near Plattsmouth, Nebraska.</p>
-<p>May was a busy month!  Levi graduated from High School, so we hosted a graduation party which featured volleyball and delicious beverages.  Unfortunately Levi may have had a little too much of both, because about a week later, he was admitted to the hospital and had his appendix removed.
-Gilbert and Donna drove Daniel and Nathanael to the Lego Razorback competition in Arkansas where they competed  with their FLL team.
-Jordon and Jessica moved to Glenwood, Iowa after Jordon accepted a job in Clarinda, Iowa.  Seth and Laura moved from their apartment into a house, also in May.</p>
-<p>Early in July, Micah proposed to Rebecca.  She said yes, of course, and so we ate ice cream and watched the hidden-camera footage of the proposal.  It was adorable!
-Later in July, we had a family from church camp in our back-yard.  They had to move due to their husband's military job, and providentially their house sold more quickly than they expected.  They were awesome guests, and we thoroughly enjoyed our time together!  A fringe benefit for us was, they took care of the house and dog chores while we went on vacation.
-In mid-July, we left on vacation to Alberta, Canada.  We wanted one last family vacation before Rebecca left.  We saw all kinds of wildlife and majestic landscapes.</p>
-<p>In August, David and Ruth had their 3rd child, Jochebed Dykstra.</p>
-<p>Late in October, our brave back-yard campers left for the outpost where they were stationed.  It was sad to see them go.</p>
-<p>Micah and Rebecca's wedding was in December.  They were married in the oldest church in Nebraska.  They will return from their honeymoon a few days after Christmas.</p>
-<p>We hope you all had an awesome year too!</p>
-<p>Love,
-The Dykstra Family</p>
 ]]></summary>
         <author>
             <name>Joseph Dykstra</name>
