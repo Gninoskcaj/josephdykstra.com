@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Joseph Dykstra&apos;s Blog</title>
     <link>http://josephdykstra.com</link>
-    <updated>2018-11-08T20:26:34Z</updated>
+    <updated>2018-12-17T15:08:07Z</updated>
     <author>
         <name>Joseph Dykstra</name>
         <email>josephdykstra@gmail.com</email>
@@ -106,7 +106,7 @@ chmod -R 777 tt-rss
 <p>Now the problem is that it's not very easy to get a link to a series' RSS feed... Until now!</p>
 <ul>
 <li><a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=12">Life of David</a> (130 sermons)</li>
-<li><a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=36">Revelation</a> (90 sermons)</li>
+<li><a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=36">Revelation</a> (116 sermons)</li>
 <li><a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=9">Acts</a> (68 sermons)</li>
 <li><a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=48">Foundations</a> (30 sermons)</li>
 <li><a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=49">Christian and Prosperity</a> (22 sermons)</li>
