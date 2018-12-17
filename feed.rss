@@ -4,7 +4,7 @@
         <title>Joseph Dykstra&apos;s Blog</title>
         <description>Follow Joseph&apos;s opinions on your feed reader!</description>
         <link>http://josephdykstra.com</link>
-        <lastBuildDate>Mon, 17 Dec 2018 19:59:19 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 17 Dec 2018 20:10:56 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <image>
             <title>Joseph Dykstra&apos;s Blog</title>
@@ -104,22 +104,22 @@ chmod -R 777 tt-rss
 <p>I was going to make a scraper that would look up the sermons in a series, and create an RSS file, but I found that my church's website will dynamically generate an RSS feed for a series. There is not a way to open a series' RSS feed using the church's website.</p>
 <p>Now the problem is that it's not very easy to get a link to a series' RSS feed... Until now!</p>
 <ul>
-<li>Life of David (130 sermons) <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=12">http://www.dominioncovenantchurch.com/?podcast&amp;series=12</a></li>
-<li>Revelation (116 sermons) <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=36">http://www.dominioncovenantchurch.com/?podcast&amp;series=36</a></li>
-<li>Acts (68 sermons) <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=9">http://www.dominioncovenantchurch.com/?podcast&amp;series=9 </a></li>
-<li>Foundations (30 sermons) <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=48">http://www.dominioncovenantchurch.com/?podcast&amp;series=48</a></li>
-<li>Christian and Prosperity (22 sermons) <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=49">http://www.dominioncovenantchurch.com/?podcast&amp;series=49</a></li>
-<li>Galatians (17 sermons) <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=10">http://www.dominioncovenantchurch.com/?podcast&amp;series=10</a></li>
-<li>Esther (12 sermons) <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=47">http://www.dominioncovenantchurch.com/?podcast&amp;series=47</a></li>
-<li>James (12 sermons) <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=46">http://www.dominioncovenantchurch.com/?podcast&amp;series=46</a></li>
-<li>Ecclesiastes (11 sermons) <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=28">http://www.dominioncovenantchurch.com/?podcast&amp;series=28</a></li>
-<li>Beatitudes (9 sermons) <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=4">http://www.dominioncovenantchurch.com/?podcast&amp;series=4 </a></li>
-<li>Christian Materialism (7 sermons) <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=17">http://www.dominioncovenantchurch.com/?podcast&amp;series=17</a></li>
-<li>Evangelism (7 sermons) <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=6">http://www.dominioncovenantchurch.com/?podcast&amp;series=6 </a></li>
-<li>Titus - Waging War (7 sermons) <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=56">http://www.dominioncovenantchurch.com/?podcast&amp;series=56</a></li>
-<li>Nehemiah (6 sermons) <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=58">http://www.dominioncovenantchurch.com/?podcast&amp;series=58</a></li>
-<li>Five Reformation Solas (5 sermons) <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=32">http://www.dominioncovenantchurch.com/?podcast&amp;series=32</a></li>
-<li>Holy Trinity (5 sermons) <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=45">http://www.dominioncovenantchurch.com/?podcast&amp;series=45</a></li>
+<li>Life of David (130 sermons) <br> <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=12">http://www.dominioncovenantchurch.com/?podcast&amp;series=12</a></li>
+<li>Revelation (116 sermons) <br> <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=36">http://www.dominioncovenantchurch.com/?podcast&amp;series=36</a></li>
+<li>Acts (68 sermons) <br> <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=9">http://www.dominioncovenantchurch.com/?podcast&amp;series=9 </a></li>
+<li>Foundations (30 sermons) <br> <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=48">http://www.dominioncovenantchurch.com/?podcast&amp;series=48</a></li>
+<li>Christian and Prosperity (22 sermons) <br> <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=49">http://www.dominioncovenantchurch.com/?podcast&amp;series=49</a></li>
+<li>Galatians (17 sermons) <br> <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=10">http://www.dominioncovenantchurch.com/?podcast&amp;series=10</a></li>
+<li>Esther (12 sermons) <br> <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=47">http://www.dominioncovenantchurch.com/?podcast&amp;series=47</a></li>
+<li>James (12 sermons) <br> <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=46">http://www.dominioncovenantchurch.com/?podcast&amp;series=46</a></li>
+<li>Ecclesiastes (11 sermons) <br> <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=28">http://www.dominioncovenantchurch.com/?podcast&amp;series=28</a></li>
+<li>Beatitudes (9 sermons) <br> <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=4">http://www.dominioncovenantchurch.com/?podcast&amp;series=4 </a></li>
+<li>Christian Materialism (7 sermons) <br> <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=17">http://www.dominioncovenantchurch.com/?podcast&amp;series=17</a></li>
+<li>Evangelism (7 sermons) <br> <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=6">http://www.dominioncovenantchurch.com/?podcast&amp;series=6 </a></li>
+<li>Titus - Waging War (7 sermons) <br> <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=56">http://www.dominioncovenantchurch.com/?podcast&amp;series=56</a></li>
+<li>Nehemiah (6 sermons) <br> <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=58">http://www.dominioncovenantchurch.com/?podcast&amp;series=58</a></li>
+<li>Five Reformation Solas (5 sermons) <br> <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=32">http://www.dominioncovenantchurch.com/?podcast&amp;series=32</a></li>
+<li>Holy Trinity (5 sermons) <br> <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=45">http://www.dominioncovenantchurch.com/?podcast&amp;series=45</a></li>
 </ul>
 <p>This does not have every single series, but it does have most series with five or more sermons. Click the Edit link below to add another series.</p>
 ]]></description>
