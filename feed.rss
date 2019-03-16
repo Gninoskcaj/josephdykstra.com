@@ -4,7 +4,7 @@
         <title>Joseph Dykstra&apos;s Blog</title>
         <description>Follow Joseph&apos;s opinions on your feed reader!</description>
         <link>http://josephdykstra.com</link>
-        <lastBuildDate>Tue, 12 Mar 2019 15:51:14 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 16 Mar 2019 18:04:25 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <image>
             <title>Joseph Dykstra&apos;s Blog</title>
@@ -13,6 +13,54 @@
         </image>
         <copyright>Copyright © Joseph Dykstra 2016.</copyright>
         <generator>Feed for Node.js</generator>
+        <item>
+            <title><![CDATA[Compiling NXC using Sublime's Build system]]></title>
+            <link>http://josephdykstra.com/compiling-nxc-using-sublime-build</link>
+            <guid>http://josephdykstra.com/compiling-nxc-using-sublime-build</guid>
+            <pubDate>Sat, 16 Mar 2019 00:00:00 GMT</pubDate>
+            <description><![CDATA[<ul>
+<li>NXT is a Lego Mindstorms robot</li>
+<li>NXT-G is the default programming software for the NXT, using visual Drag-and-Drop "blocks"</li>
+<li>NXC is a C-like programming language for the NXT</li>
+<li>NBC is a compiler for NXC code, as well as a couple other languages</li>
+<li>BricxCC is an IDE for the languages that NBC supports</li>
+<li>FLL is a competition using NXT robots, which only allows NXT-G</li>
+</ul>
+<p>I used NXT-G to program <a href="https://www.josephdykstra.com/fll">FLL</a> robots, many years ago. For personal fun projects, I was disappointed in the limitations of NXT-G. It doesn't even have arrays. So I used the <a href="http://bricxcc.sourceforge.net/">BricxCC</a> IDE, and I wrote code in the <a href="http://bricxcc.sourceforge.net/nbc/">NXC</a> programming language. I was able to create much more interesting and advanced programs for the NXT using NXC than I had been able to create using NXT-G. I created clones of some classic games like <a href="https://github.com/ArtskydJ/nxc-simon">Simon</a>, <a href="https://github.com/ArtskydJ/nxc-snake">Snake</a>, and <a href="https://github.com/ArtskydJ/nxc-tetris">Tetris</a>. I developed those games using BricxCC. The cursor behavior in BricxCC is quite different from most text editors, and I got used to it, and liked it.</p>
+<p>A month ago, I programmed the NXT robot, and I really disliked the BricxCC IDE, and it's funky cursor behavior. I wanted to develop NXC programs using Sublime Text, and to download the programs using Sublime Text's Build System.</p>
+<p>So I made a Sublime Text 3 build script for compiling the current file, and downloading it via USB. To use the same script I have, follow the steps below:</p>
+<p>(Note that I did this on Windows. I don't know if you can make it work using macOS or Linux. Let me know if you make it work!)</p>
+<ol>
+<li><p>Open Sublime Text, and click <em>Tools</em> &gt; <em>Build System</em> &gt; <em>New Build System...</em></p></li>
+<li><p>Delete the placeholder JSON, and paste the following JSON:</p></li>
+</ol>
+<pre><code class="language-json">{
+    "cmd": [
+        // Replace next line with your nbc.exe path!
+        "C:\\Program Files (x86)\\BricxCC\\nbc.exe",
+        "-S=usb",
+        "-d", // -d: Download, -r: Download and Run
+        "-sm-", // Avoid nbc status messages
+        "$file"
+    ],
+    "file_patterns": [ "*.nxc" ],
+    "file_regex": "^File \"(.+)\" ; line (\\d+)",
+    "quiet": true // Avoid sublime environment info
+}
+</code></pre>
+<ol start="3">
+<li><p>Replace line 4 with your actual <code>nbc.exe</code> path. If you've already got BricxCC installed on a 64-bit Windows machine, my path above should work for you.</p></li>
+<li><p>Save the file as <code>NXC.sublime-build</code>.</p></li>
+<li><p>Connect your NXT, open an <code>.nxc</code> file, and hit <kbd>Ctrl</kbd><kbd>B</kbd>!</p></li>
+</ol>
+]]></description>
+            <content:encoded/>
+            <author>
+                <name>Joseph Dykstra</name>
+                <email>josephdykstra@gmail.com</email>
+                <link>http://josephdykstra.com</link>
+            </author>
+        </item>
         <item>
             <title><![CDATA[How to set up Tiny Tiny RSS on a Digital Ocean VPS]]></title>
             <link>http://josephdykstra.com/how-to-setup-tt-rss-on-do-vps</link>
@@ -187,64 +235,6 @@ chmod -R 777 tt-rss
 <p><img src="./highlight-cfml-in-sublime/4_highlighted.png" alt="Success"></p>
 <p>I had the custom color go away, and running the <strong>CFML Toggle</strong> a couple times didn't make it show. I changed the theme, then changed it back, then I ran the toggle a couple more times, and it started working again.</p>
 <p>I hope this helps!</p>
-]]></description>
-            <content:encoded/>
-            <author>
-                <name>Joseph Dykstra</name>
-                <email>josephdykstra@gmail.com</email>
-                <link>http://josephdykstra.com</link>
-            </author>
-        </item>
-        <item>
-            <title><![CDATA[Complaints about Memes]]></title>
-            <link>http://josephdykstra.com/complaints-about-memes</link>
-            <guid>http://josephdykstra.com/complaints-about-memes</guid>
-            <pubDate>Wed, 07 Jun 2017 00:00:00 GMT</pubDate>
-            <description><![CDATA[<p>Today I saw a lot of memes on Facebook, and I was disappointed in humanity. First, for the memes, and second, for the content. So I grabbed a bunch of memes from my timeline. (Not all the memes, some of them were just dumb jokes. Also, I'm using the term "meme" quite loosely.)</p>
-<p>First, the pencil joke:</p>
-<p><img src="./complaints-about-memes/1_pencil_cassette.jpg" alt="Image"></p>
-<p>I wouldn't even include this one if it wasn't for the text at the top: "Like three people will get this but it's worth it."</p>
-<p>Here's a comic strip that's well done, but not particularly sharable... Until you add the text telling almost everyone that they are the genius that understands this joke. At least 50% of people must get the joke, is my estimate, but the text at the top is intended to make you feel good. And then you Like or Share it, and more people see it in their timeline.</p>
-<hr>
-<p>I guess you can tell that I'm growing up in the Mid-West with farming relatives:</p>
-<p><img src="./complaints-about-memes/2_baling_hard_work.jpg" alt="Image"></p>
-<p>This meme is similar the the first, but targets what they've done instead of what they know. While fewer people relate to this, those who do are probably going to Share and Like it more often.</p>
-<p>If you've spent a summer baling hay, you want your friends to know. What better way to tell them, then to also tell them that they haven't worked hard?</p>
-<hr>
-<p>The inspirational, misleading meme:</p>
-<p><img src="./complaints-about-memes/3_do_scary_things.jpg" alt="Image"></p>
-<p>"Do things that scare you, they're worth it."</p>
-<p>Jumping off a cliff would scare me.</p>
-<hr>
-<p>Thoughts and prayers:</p>
-<p><img src="./complaints-about-memes/4_thoughts_prayers.jpg" alt="Image"></p>
-<p>I found this to be pretty funny. In a case where the guy on the dock is in a position to help, it's pretty terrible that he's ignoring the drowning dude.</p>
-<p>In cases where I've noticed people say this, I don't think they were in the position to help...</p>
-<hr>
-<p>Here's a girl who wrote a song about her situation, and sang it for America's Got Talent, even though she's deaf:</p>
-<p><img src="./complaints-about-memes/5_mandy_harvey.png" alt="Image"></p>
-<p>I watched it, and was impressed. Then again, I've been impressed with <a href="https://www.youtube.com/watch?v=rk_qLtk0m2c">many</a> <a href="https://youtu.be/NS0L9RdPNvY?t=2m49s">Got</a> <a href="https://youtu.be/CVRe8lns3xc?t=39s">Talent</a> videos, each in different ways.</p>
-<p>The caption is dumb. "Proof that you should never give up on your dream"? <em>Maybe</em> it's evidence that you should never give up on your dream. It's proof that some people <em>accomplish</em> their dreams. Maybe your dream is out of reach. Maybe you should get a more realistic dream.</p>
-<hr>
-<p>Now for some of the dumbest logic yet:</p>
-<p><img src="./complaints-about-memes/6_wine_college.jpg" alt="Image"></p>
-<p>This makes just enough sense to click Like if you aren't really thinking about it, and never set eyes upon it again.</p>
-<p>The meme is trying to say this:</p>
-<blockquote>
-<p>"Can I spend $20?" "No."</p>
-<p>"Can I spend $40,000?" "Yes."</p>
-<p>Subtext: Isn't that crazy?</p>
-</blockquote>
-<p>Obviously it can be bad, even disastrous to go into debt. It's legal to go into debt. Colleges are a common method by which people go into debt. Should colleges be illegal? No! People can decide for themselves whether college is worth the investment.</p>
-<p>The first part of the meme has nothing to do with the second part, which I just covered. It just mentions that alcohol is illegal in the U.S. I don't think it should be, but that's not really the point of the meme.</p>
-<hr>
-<p>I thought this was another one of those "I had no smartphone when I was a kid" memes:</p>
-<p><img src="./complaints-about-memes/7_grew_up_no_phone.jpg" alt="Image"></p>
-<p>Ha ha, nope! I think this meme is hilarious. But like most of the other memes, it suffers from terrible resolution and jpg compression.</p>
-<p>It only makes sense with the context of the "so glad I grew up playing outdoors rather than playing with a screen" memes.</p>
-<hr>
-<p>So what's the point? I felt like complaining about what I see on Facebook. While I would like to blame the "algorithm" that tries to guess what I want to see, it's actually a lot of my friends interacting (Sharing/Liking) these posts that gets me to see them. And I've probably Liked and Shared a hundred dumb memes, so I'm not one to talk.</p>
-<p>But if you see a meme on Facebook or Twitter, think about this: Is it a logical argument? Is it just appealing to pride?</p>
 ]]></description>
             <content:encoded/>
             <author>
