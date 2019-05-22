@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Joseph Dykstra&apos;s Blog</title>
     <link>http://josephdykstra.com</link>
-    <updated>2019-05-22T15:15:27Z</updated>
+    <updated>2019-05-22T16:04:10Z</updated>
     <author>
         <name>Joseph Dykstra</name>
         <email>josephdykstra@gmail.com</email>
@@ -153,6 +153,7 @@ chmod -R 777 tt-rss
 <p>I was going to make a scraper that would look up the sermons in a series, and create an RSS file, but I found that my church's website will dynamically generate an RSS feed for a series. There is not a way to open a series' RSS feed using the church's website.</p>
 <p>Now the problem is that it's not very easy to get a link to a series' RSS feed... Until now!</p>
 <ul>
+<li>Bible Survey (10+ sermons) <br> <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=64">http://www.dominioncovenantchurch.com/?podcast&amp;series=64</a></li>
 <li>Life of David (130 sermons) <br> <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=12">http://www.dominioncovenantchurch.com/?podcast&amp;series=12</a></li>
 <li>Revelation (116 sermons) <br> <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=36">http://www.dominioncovenantchurch.com/?podcast&amp;series=36</a></li>
 <li>Acts (68 sermons) <br> <a href="http://www.dominioncovenantchurch.com/?podcast&amp;series=9">http://www.dominioncovenantchurch.com/?podcast&amp;series=9 </a></li>
